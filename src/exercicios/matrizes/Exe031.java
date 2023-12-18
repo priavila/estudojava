@@ -34,9 +34,7 @@ public class Exe031 {
         System.out.print("LINHA ESCOLHIDA: ");
         for (int i=0; i<N; i++) {
             for (int j=0; j<N; j++) {
-                if (linha == i) {
-                    System.out.print(mat[i][j] + " ");
-                }
+                System.out.print(mat[linha][j] + " ");
             }
         }
         System.out.println();
@@ -46,9 +44,7 @@ public class Exe031 {
         System.out.print("COLUNA ESCOLHIDA: ");
         for (int i=0; i<N; i++) {
             for (int j = 0; j < N; j++) {
-                if (coluna == j) {
-                    System.out.print(mat[i][j] + " ");
-                }
+                System.out.print(mat[i][coluna] + " ");
             }
         }
         System.out.println();
